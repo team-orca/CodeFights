@@ -1,0 +1,8 @@
+int processingRequests(int servers, int[] requests) {
+    int canBeProcessed=0;
+        for(int j=0; j<requests.length; j++){
+            if(servers*2>requests[j] && canBeProcessed<servers)
+                canBeProcessed++;
+        }
+    return canBeProcessed;
+}
