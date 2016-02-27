@@ -26,6 +26,13 @@ names: ["doc",
  "image", 
  "doc(1)", 
  "doc"]
+ ///Output1///
+ Expected Output
+["doc", 
+ "doc(1)", 
+ "image", 
+ "doc(1)(1)", 
+ "doc(2)"]
  ///Input2///
  Input(s)
 names: ["a(1)", 
@@ -40,4 +47,18 @@ names: ["a(1)",
  "a", 
  "a", 
  "a"]
+ ///Output2///
+ Expected Output2
+["a(1)", 
+ "a(6)", 
+ "a", 
+ "a(2)", 
+ "a(3)", 
+ "a(4)", 
+ "a(5)", 
+ "a(7)", 
+ "a(8)", 
+ "a(9)", 
+ "a(10)", 
+ "a(11)"]
 
