@@ -1,0 +1,15 @@
+boolean beautifulText(String inputString, int l, int r) {
+
+}
+
+/*inputString: "Look at this example of a correct text" l: 5 r: 15
+Expected Output: true
+
+inputString: "abc def ghi" l: 4 r: 10
+Expected Output: false
+
+inputString: "a a a a a a a a" l: 1 r: 10
+Expected Output: true
+
+
+*/
