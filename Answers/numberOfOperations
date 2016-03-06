@@ -1,0 +1,13 @@
+int numberOfOperations(int a, int b) {
+    int c=0;
+    while(a%b==0||b%a==0){
+        if(a>b){
+        a=a/b;
+            c++;}
+        else if(b>a){
+            b=b/a;
+            c++;
+        }
+    }
+    return c;
+}
