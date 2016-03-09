@@ -1,6 +1,6 @@
 int bfsComponentSize(boolean[][] matrix) {
 
-  ArrayList<Boolean> visited = new ArrayList<>();
+  ArrayList<Boolean> visited = new ArrayList<Boolean>();
   LinkedList<Integer> queue = new LinkedList<>();
   int componentSize = 0;
 
