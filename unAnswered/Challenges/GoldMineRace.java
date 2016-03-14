@@ -8,8 +8,6 @@ int GoldMineRace(int[][] cities, double[] speed, int[] goldmine) {
              int citY = cities[i][1];
            ratio[i] = Math.sqrt(Math.pow(citX-Xgold, 2) +  Math.pow(citY-Ygold, 2))/ speed[i];
     }
-   double remember=0.0;
-   double remember2 = 0.0;
     for(int i=0; i<ratio.length; i++)  {  
         for(int j=0; j<ratio.length; j++) {
             if(ratio[i] == ratio[j] && i!=j){
