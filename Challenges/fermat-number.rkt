@@ -1,4 +1,4 @@
-#language racket
+#lang racket
 
 (define fermat-number
 (lambda (n) (+ (repeadetly-square 2 n) 1)))
