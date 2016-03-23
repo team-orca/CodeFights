@@ -1,3 +1,4 @@
+#lang racket
 (define survives?
 (lambda (position n)
   (if (< n 3) #t
