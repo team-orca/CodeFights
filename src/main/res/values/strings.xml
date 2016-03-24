@@ -4,23 +4,23 @@
     <!-- Strings related to login -->
     <string name="prompt_id">Id</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Giriş Yap</string>
+    <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">Böyle bir id yok</string>
-    <string name="error_invalid_password">Bu şifre çok kısa</string>
-    <string name="error_incorrect_password">Şifre veya kullanıcı adı yanlış</string>
-    <string name="error_field_required">Zorunlu alan</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_main">Bir konu seç</string>
+    <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="user_name">User Name</string>
     <string name="user_id">User Id</string>
-    <string name="action_settings">Hakkında</string>
+    <string name="action_settings">Settings</string>
     <string name="ozan_name">User Name</string>
     <string name="ozan_id">User Name</string>
 

@@ -16,13 +16,11 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:paddingTop="25dp"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:id="@+id/tableLayout">
+        android:paddingRight="10dp" >
 
         <TableRow>
             <ImageButton
@@ -55,27 +53,4 @@
         </TableRow>
 
     </TableLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/altınView"
-        android:textSize="15sp"
-        android:textColor="#00529B"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_toRightOf="@+id/imageView2"
-        android:layout_toEndOf="@+id/imageView2" />
-
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:id="@+id/imageView2"
-
-        android:src="@drawable/finans"
-
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/tableLayout"
-        android:layout_alignEnd="@+id/tableLayout" />
-
 </RelativeLayout>

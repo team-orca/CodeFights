@@ -324,7 +324,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 }
             }
 
-            return false;
+            // TODO: register the new account here.
+            return true;
         }
 
         @Override

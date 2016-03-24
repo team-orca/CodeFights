@@ -13,35 +13,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
-import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
-
         implements NavigationView.OnNavigationItemSelectedListener {
     final String idE = "Enes Günday";
     final String idO= "Ozan Onur Tek";
     private String coming="";
-    private TextView username,userid, textAltın;
-    private ImageView imagePara;
-    Kuyumcu yeniKuyumcu = new Kuyumcu();
+    private TextView username,userid;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        textAltın  = (TextView)findViewById(R.id.altınView);
 
-        textAltın.setText(yeniKuyumcu.AltınınStringKarsılıgı());
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, yeniKuyumcu.tlKarşılıgıNedir(), Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -75,8 +70,6 @@ public class MainActivity extends AppCompatActivity
         switch (v.getId()) {
             case R.id.haritaImageButton:
                 Toast.makeText(getBaseContext(),"harita",Toast.LENGTH_SHORT).show();
-                yeniKuyumcu.yeniAltınMiktarı(0.0);
-               textAltın.setText(yeniKuyumcu.AltınınStringKarsılıgı());
                 break;
             case R.id.kimlerImageButton:
                 Toast.makeText(getBaseContext(),"kimler",Toast.LENGTH_SHORT).show();
@@ -84,8 +77,6 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.profilImageButton:
                 Toast.makeText(getBaseContext(),"profil",Toast.LENGTH_SHORT).show();
-                yeniKuyumcu.altınlarıArttır(20.0);
-                textAltın.setText(yeniKuyumcu.AltınınStringKarsılıgı());
                 break;
             case R.id.ayarlarImageButton:
                 Toast.makeText(getBaseContext(),"ayarlar",Toast.LENGTH_SHORT).show();
@@ -152,6 +143,7 @@ public class MainActivity extends AppCompatActivity
 
 
     private void attemptVideo(){
-
+    Intent intent = new Intent(MainActivity.this, VideoActivity.class);
+        startActivity(intent);
     }
 }
