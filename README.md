@@ -1,6 +1,6 @@
 # CodeFights
 
-###Solutions of CodeFights Questions
+### Solutions of CodeFights Questions
 
 #### Team Members:
 - Enes GÜNDAY   : *opsenes@gmail.com*
